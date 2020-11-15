@@ -1,7 +1,17 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 // Resets
-const GlobalStyles = createGlobalStyle``;
+const GlobalStyles = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box
+  }
+  :root {
+    font-size: 62.5%;
+  }
+`;
 export default GlobalStyles;
 
 // Styles
