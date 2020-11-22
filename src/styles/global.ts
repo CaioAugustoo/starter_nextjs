@@ -12,15 +12,15 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Montserrat', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 `;
 export default GlobalStyles;
 
 // Styles
 export const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+  width: 100%;
 `;
